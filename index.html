@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Focus Timer</h1>
+        <div class="mode-selector">
+            <button class="mode-btn active" data-mode="work">Work</button>
+            <button class="mode-btn" data-mode="rest">Rest</button>
+            <button class="mode-btn" data-mode="break">Break</button>
+        </div>
+        <div class="timer">25:00</div>
+        <div class="hp-bar-container">
+            <div class="hp-bar-bg">
+                <div class="hp-bar"></div>
+            </div>
+        </div>
+        <div class="animation-message"></div>
+        <div class="session-tally">
+            <div class="tally work-tally"></div>
+            <div class="tally rest-tally"></div>
+            <div class="tally break-tally"></div>
+        </div>
+        <div class="controls">
+            <button id="toggleBtn">Start</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
